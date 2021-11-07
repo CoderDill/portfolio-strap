@@ -1,48 +1,26 @@
 {
-    "title": "Matthew Dillon's Portfolio",
-    "name": "portfolio",
-    "version": "1.0",
-    "scripts": {
-        "start": "node scripts/start.js"
-    },
-    "description": "A freelancer portfolio HTML theme for Bootstrap.",
-    "keywords": [
-        "css",
-        "sass",
-        "scss",
-        "html",
-        "pug",
-        "responsive",
-        "theme",
-        "template"
-    ],
-    "homepage": "https://matthewdillon.netlify.app/",
-    "bugs": {
-        "url": "https://matthewdillon.netlify.app/",
-        "email": "mddillon47@yahoo.com"
-    },
-    "license": "MIT",
-    "author": "Start Bootstrap",
-    "contributors": [
-        "Matthew Dillon"
-    ],
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/CrappyDill/portfolio-strap.git"
-    },
-    "dependencies": {
-        "bootstrap": "5.1.3"
-    },
-    "devDependencies": {
-        "autoprefixer": "10.3.7",
-        "browser-sync": "2.27.5",
-        "chokidar": "3.5.2",
-        "concurrently": "6.3.0",
-        "postcss": "8.3.9",
-        "prettier": "2.4.1",
-        "pug": "3.0.2",
-        "sass": "1.43.2",
-        "shelljs": "0.8.4",
-        "upath": "2.0.1"
-    }
+  "name": "portfolio-strap",
+  "version": "1.0.0",
+  "description": "[Freelancer](https://startbootstrap.com/theme/freelancer/) is a one page, freelancer portfolio theme built with [Bootstrap](https://getbootstrap.com/) created by [Start Bootstrap](https://startbootstrap.com/). This theme features several content sections, a responsive portfolio grid, modal windows for each portfolio item, and a working PHP based contact form.",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx http-server dist/",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CrappyDill/portfolio-strap.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CrappyDill/portfolio-strap/issues"
+  },
+  "homepage": "https://github.com/CrappyDill/portfolio-strap#readme",
+  "dependencies": {
+    "axios": "^0.24.0",
+    "concurrently": "^6.3.0",
+    "upath": "^2.0.1"
+  }
 }
