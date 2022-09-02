@@ -11442,7 +11442,7 @@ html {
   font-size: 1.25rem;
 }
 .masthead .masthead-avatar {
-  width: 30rem;
+  width: 25rem;
 }
 
 @media (min-width: 992px) {
@@ -11510,7 +11510,6 @@ html {
 
 .wrapper {
   animation: scroll 70s linear infinite;
-  background: url("https://images.unsplash.com/photo-1465146633011-14f8e0781093?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=3450&q=80"), #111111;
   color: #eee;
   min-width: 360px;
   width: 100%;
